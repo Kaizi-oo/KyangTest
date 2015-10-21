@@ -15,6 +15,7 @@
 		EFD7F3171BD7D37B00A7C299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD7F3151BD7D37B00A7C299 /* LaunchScreen.storyboard */; };
 		EFD7F3221BD7D37B00A7C299 /* KyangTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD7F3211BD7D37B00A7C299 /* KyangTestTests.m */; };
 		EFD7F32D1BD7D37B00A7C299 /* KyangTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD7F32C1BD7D37B00A7C299 /* KyangTestUITests.m */; };
+		EFD7F33C1BD7D62D00A7C299 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD7F33B1BD7D62D00A7C299 /* BlockTest.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EFD7F3281BD7D37B00A7C299 /* KyangTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyangTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD7F32C1BD7D37B00A7C299 /* KyangTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KyangTestUITests.m; sourceTree = "<group>"; };
 		EFD7F32E1BD7D37B00A7C299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD7F33A1BD7D62D00A7C299 /* BlockTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
+		EFD7F33B1BD7D62D00A7C299 /* BlockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				EFD7F3151BD7D37B00A7C299 /* LaunchScreen.storyboard */,
 				EFD7F3181BD7D37B00A7C299 /* Info.plist */,
 				EFD7F3071BD7D37B00A7C299 /* Supporting Files */,
+				EFD7F33A1BD7D62D00A7C299 /* BlockTest.h */,
+				EFD7F33B1BD7D62D00A7C299 /* BlockTest.m */,
 			);
 			path = KyangTest;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD7F30F1BD7D37B00A7C299 /* ViewController.m in Sources */,
+				EFD7F33C1BD7D62D00A7C299 /* BlockTest.m in Sources */,
 				EFD7F30C1BD7D37B00A7C299 /* AppDelegate.m in Sources */,
 				EFD7F3091BD7D37B00A7C299 /* main.m in Sources */,
 			);
@@ -501,6 +507,7 @@
 				EFD7F3331BD7D37B00A7C299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFD7F3341BD7D37B00A7C299 /* Build configuration list for PBXNativeTarget "KyangTestTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				EFD7F3361BD7D37B00A7C299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFD7F3371BD7D37B00A7C299 /* Build configuration list for PBXNativeTarget "KyangTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				EFD7F3391BD7D37B00A7C299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
